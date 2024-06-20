@@ -29,7 +29,6 @@ export const RESUME_DATA = {
   summary:
     "As a Full Stack Engineer I build and deploy applications from concept to production. I’m proficient in both frontend and backend development with Java, Spring Boot, Flutter and React. I’ve experience in automating testing, CI/CD pipelines and backend services. I love working in teams, leading teams and mentoring peers to perform at their best. Currently I’m focused on Java, Spring Boot, Docker and Kubernetes. With a solid computer science foundation and hands on experience in many projects I deliver high quality software.",
   avatarUrl: "https://avatars.githubusercontent.com/u/65033601?v=4",
-  personalWebsiteUrl: "",
   contact: {
     email: "a4anurag13@gmail.com",
     tel: "+917494870643",
