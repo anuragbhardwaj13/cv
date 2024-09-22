@@ -26,9 +26,8 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   about:
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
-  summary:
-    "As a Full Stack Engineer I build and deploy applications from concept to production. I’m proficient in both frontend and backend development with Java, Spring Boot, Flutter and React. I’ve experience in automating testing, CI/CD pipelines and backend services. I love working in teams, leading teams and mentoring peers to perform at their best. Currently I’m focused on Java, Spring Boot, Docker and Kubernetes. With a solid computer science foundation and hands on experience in many projects I deliver high quality software.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/65033601?v=4",
+  summary:"As a Full Stack Engineer at Smiota, I developed RESTful APIs using Spring Boot, wrote comprehensive unit tests, fixed issues to enhance code quality, deployed services on Google Cloud Platform using Kubernetes, and optimized infrastructure costs. I'm proficient in Java, Spring Boot, Flutter, React, and have experience in automating testing, CI/CD pipelines, and backend services. With a solid computer science foundation and hands-on experience, I deliver high-quality software.",
+    avatarUrl: "https://avatars.githubusercontent.com/u/65033601?v=4",
   contact: {
     email: "a4anurag13@gmail.com",
     tel: "+917494870643",
@@ -68,8 +67,9 @@ export const RESUME_DATA = {
       start: "July 2023",
       end: null,
       description:
-        "Optimized API and Android testing, 50% faster and 95% coverage. Wrote Unit tests and fixed numerous Sonarqube Bugs in Spring Boot based Microservice. Deployed and Monitored Applications using Docker, Kubernetes, Helm and Google Kubernetes Engine",
-    },
+"Developed RESTful APIs using Spring Boot for the DayUse Service, wrote comprehensive unit tests achieving 95% code coverage, fixed issues using SonarQube to enhance code quality, deployed services on Google Cloud Platform using Kubernetes for high availability and scalability, and optimized infrastructure costs by 20% through effective resource management."
+
+        },
     {
       company: "Nokia Networks",
       link: "https://www.nokia.com/",
@@ -109,6 +109,19 @@ export const RESUME_DATA = {
   ]
   ,
   projects: [
+    {
+      title: "ZapVault - Payment Gateway-Wallet Application",
+      techStack: [
+       "Java", "Spring Boot", "Next.js", "PostgreSQL", "Docker", "AWS (EC2, RDS)", "RESTful APIs", "Gmail SMTP"
+      ],
+      description:
+"Developed a secure, full-stack payment gateway application with Spring Boot, Next.js, and PostgreSQL, featuring user authentication, wallet functionality, and transaction tracking, deployed on AWS using Docker and RDS.",
+        logo: ParabolLogo,
+      link: {
+        label: "Live Link",
+        href: "https://www.zapvault.in/",
+      },
+    },
     {
       title: "News App - Saransa [Freelance]",
       techStack: [
