@@ -22,12 +22,12 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Anurag Bhardwaj",
   initials: "AB",
-  location: "Bengaluru",
-  locationLink: "https://www.google.com/maps/place/Bengaluru",
+  location: "Gurugram, India",
+  locationLink: "https://www.google.com/maps/place/Gurugram",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Full Stack Engineer driven to create impactful software solutions.",
   summary:
-    "As a Full Stack Engineer I build and deploy applications from concept to production. I’m proficient in both frontend and backend development with Java, Spring Boot, Flutter and React. I’ve experience in automating testing, CI/CD pipelines and backend services. I love working in teams, leading teams and mentoring peers to perform at their best. Currently I’m focused on Java, Spring Boot, Docker and Kubernetes. With a solid computer science foundation and hands on experience in many projects I deliver high quality software.",
+    "A results-driven Full Stack Engineer with a passion for turning ideas into working products, fast. I thrive on building end-to-end applications and can rapidly deliver MVPs or robust solutions using the best tools for the job—whether that's Java, Spring Boot, Flutter, React, or any modern framework. My versatile skill set spans frontend, backend, automation, and cloud, ensuring I can bring any vision to life and adapt to any challenge. With a strong foundation in computer science and proven reliability in delivering projects on time, I’m dedicated to helping teams and businesses reach their goals with high-quality, efficient software.",
   avatarUrl: "https://avatars.githubusercontent.com/u/65033601?v=4",
   contact: {
     email: "a4anurag13@gmail.com",
@@ -60,15 +60,27 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Freecharge Payment Technologies Pvt Ltd",
+      link: "https://www.freecharge.in/",
+      badges: ["Gurugram"],
+      title: "Software Developement Engineer 1",
+      logo: "",
+      start: "June 2025",
+      end: null,
+      description:
+"Implemented Kotlin-based microservices leveraging reactive programming (Project Reactor), increasing request throughput and reducing API response latency by 15%. \n• Refactored and optimized request/response schemas to align with evolving business rules, resolving 20+ production defects and meeting fintech regulatory standards. \n• Utilized Kafka to process asynchronous steps, enabling smooth application and customer onboarding."
+
+        },
+    {
       company: "Smiota Labs India Pvt Ltd",
       link: "https://smiota.com/",
       badges: ["Remote"],
       title: "Software Engineer 1",
       logo: "",
       start: "July 2023",
-      end: null,
+      end: "June 2025",
       description:
-"Developed RESTful APIs using Spring Boot for the DayUse Service, wrote comprehensive unit tests achieving 95% code coverage, fixed issues using SonarQube to enhance code quality, deployed services on Google Cloud Platform using Kubernetes for high availability and scalability, and optimized infrastructure costs by 20% through effective resource management."
+"Developed RESTful APIs using Spring Boot for the DayUse Service, wrote comprehensive unit tests achieving 95% code coverage, fixed issues using SonarQube to enhance code quality, deployed services on Google Cloud Platform using Kubernetes for high availability and scalability, and optimized infrastructure costs by 20% through effective resource management. Led the DevOps team during a major company restructuring, overseeing CI/CD pipelines, improving deployment automation, and ensuring seamless service migration and uptime throughout the transition period."
 
         },
     {
@@ -86,13 +98,20 @@ export const RESUME_DATA = {
   ],
   skills:  [
       "Java",
+      "Kotlin",
       "JavaScript",
       "MongoDB",
       "MySQL",
       "Spring Boot",
+      "Project Reactor",
+      "Kafka",
       "PostgreSQL",
       "Docker",
       "Kubernetes",
+      "AWS",
+      "GCP",
+      "Azure",
+"Linux",
       "Python",
       "Dart",
       "HTML",
@@ -110,17 +129,18 @@ export const RESUME_DATA = {
   ]
   ,
   projects: [
+    
     {
-      title: "ZapVault - Payment Gateway-Wallet Application",
+      title: "Short Videos App - Yathartha Khabar [Freelance]",
       techStack: [
-       "Java", "Spring Boot", "Next.js", "PostgreSQL", "Docker", "AWS (EC2, RDS)", "RESTful APIs", "Gmail SMTP"
+        "Mobile Application Developer","Flutter","Firebase"," MVC Architecture"
       ],
       description:
-"Developed a secure, full-stack payment gateway application with Spring Boot, Next.js, and PostgreSQL, featuring user authentication, wallet functionality, and transaction tracking, deployed on AWS using Docker and RDS.",
-        logo: ParabolLogo,
+        "Developed Yathartha Khabar, a short video app for independent journalists to share news videos, featuring HLS video streaming powered by MUX for smooth playback and content delivery.",
+      logo: ParabolLogo,
       link: {
-        label: "Live Link",
-        href: "https://www.zapvault.in/",
+        label: "App Store Link",
+        href: "https://apps.apple.com/us/app/saransa/id6572288287",
       },
     },
     {
@@ -132,8 +152,36 @@ export const RESUME_DATA = {
         "News App developed with Flutter using MVC architecture, in-app web view, custom categories, social media login, Custom Notifications Support using Firebase Messaging, Google Play Referrer API and English & Nepali language support.",
       logo: ParabolLogo,
       link: {
-        label: "Google Play Link",
-        href: "https://play.google.com/store/apps/details?id=com.deltadot.saransa&pcampaignid=web_share",
+        label: "App Store Link",
+        href: "https://apps.apple.com/us/app/saransa/id6572288287",
+      },
+    },
+    {
+      title: "Multi Text-Diff App",
+      techStack: [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      description:
+        "Built a web-based Multi Text-Diff Tool that allows comparison of differences across up to 10 text files simultaneously—an unmatched feature in existing tools. Includes a smart comparison algorithm to highlight precise changes and make multi-file text review fast and intuitive.",
+      logo: ParabolLogo,
+      link: {
+        label: "Web Application Link",
+        href: "https://anuragbhardwaj13.github.io/multi-text-diff/",
+      },
+    },
+    {
+      title: "ZapVault - Payment Gateway-Wallet Application",
+      techStack: [
+       "Java", "Spring Boot", "Next.js", "PostgreSQL", "Docker", "AWS (EC2, RDS)", "RESTful APIs", "Gmail SMTP"
+      ],
+      description:
+"Developed a secure, full-stack payment gateway application with Spring Boot, Next.js, and PostgreSQL, featuring user authentication, wallet functionality, and transaction tracking, deployed on AWS using Docker and RDS.",
+        logo: ParabolLogo,
+      link: {
+        label: "Live Link",
+        href: "https://www.zapvault.in/",
       },
     },
     {
