@@ -68,7 +68,7 @@ export const RESUME_DATA = {
       start: "June 2025",
       end: null,
       description:
-"Implemented Kotlin-based microservices leveraging reactive programming (Project Reactor), increasing request throughput and reducing API response latency by 15%. \n• Refactored and optimized request/response schemas to align with evolving business rules, resolving 20+ production defects and meeting fintech regulatory standards. \n• Utilized Kafka to process asynchronous steps, enabling smooth application and customer onboarding."
+"Implemented Kotlin-based microservices leveraging reactive programming (Project Reactor), increasing request throughput and reducing API response latency by 15%. \n Refactored and optimized request/response schemas to align with evolving business rules, resolving 20+ production defects and meeting fintech regulatory standards. \n Utilized Kafka to process asynchronous steps, enabling smooth application and customer onboarding."
 
         },
     {
@@ -140,7 +140,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       link: {
         label: "App Store Link",
-        href: "https://apps.apple.com/us/app/saransa/id6572288287",
+        href: "https://apps.apple.com/us/app/yathartha-khabar/id6741046566",
       },
     },
     {
