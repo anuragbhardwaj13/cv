@@ -164,7 +164,7 @@ export const RESUME_DATA = {
         "CSS3"
       ],
       description:
-        "Built a comprehensive suite of 10+ developer utilities in one beautiful, fast web application. Features include Multi-Text Diff with word-level precision (compare up to 10 texts simultaneously), Base64 encoding/decoding for text and files with auto-detection, JSON formatter with collapsible tree view, XML formatter, Hash Generator (MD5, SHA-256, SHA-512), JWT Decoder, Case Converter, CSV ↔ JSON Converter, and Markdown Preview. All tools run 100% client-side with zero server dependency, featuring a modern materialistic UI with dark/light mode and mobile-responsive design.",
+        "Developed a fast, modern web app offering 10+ essential developer tools (diff, encoding, formatters, hash, JWT, converters) all client-side, with a sleek, responsive UI and dark/light mode.",
       logo: ParabolLogo,
       link: {
         label: "tools.anurag.one",
