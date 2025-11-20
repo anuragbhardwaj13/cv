@@ -157,18 +157,18 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Multi Text-Diff App",
+      title: "DEVTOOLS : ALL YOU NEED",
       techStack: [
         "JavaScript",
-        "HTML",
-        "CSS"
+        "HTML5",
+        "CSS3"
       ],
       description:
-        "Built a web-based Multi Text-Diff Tool that allows comparison of differences across up to 10 text files simultaneously—an unmatched feature in existing tools. Includes a smart comparison algorithm to highlight precise changes and make multi-file text review fast and intuitive.",
+        "Built a comprehensive suite of 10+ developer utilities in one beautiful, fast web application. Features include Multi-Text Diff with word-level precision (compare up to 10 texts simultaneously), Base64 encoding/decoding for text and files with auto-detection, JSON formatter with collapsible tree view, XML formatter, Hash Generator (MD5, SHA-256, SHA-512), JWT Decoder, Case Converter, CSV ↔ JSON Converter, and Markdown Preview. All tools run 100% client-side with zero server dependency, featuring a modern materialistic UI with dark/light mode and mobile-responsive design.",
       logo: ParabolLogo,
       link: {
-        label: "Web Application Link",
-        href: "https://anuragbhardwaj13.github.io/multi-text-diff/",
+        label: "tools.anurag.one",
+        href: "https://tools.anurag.one/",
       },
     },
     {
